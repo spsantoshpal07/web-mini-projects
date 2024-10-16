@@ -1,0 +1,42 @@
+.main {
+  border: 2px solid rgb(255, 248, 248);
+  height: 100px;
+  width: 250px;
+  background-color: rgb(168, 157, 157);
+  border-radius: 50px;
+  position: relative;
+}
+
+.container {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: rgb(175, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border: 10px solid white;
+}
+
+.on {
+  background-color: green;
+  transform: translateX(150px);
+  transition: ease-out;
+  transition-duration: .5s;
+}
+
+.off {
+  background-color: rgb(241, 0, 0);
+  transform: translateX(0px);
+  transition: ease-in;
+  transition-duration: .5s;
+}
+
+span {
+  color: white;
+  cursor: default;
+}
