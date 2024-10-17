@@ -97,7 +97,7 @@ git push -u origin <your_branch_name>
 <table>
 <tr>
 <td align="center"><a href="https://github.com/spsantoshpal07"><img src="https://avatars.githubusercontent.com/u/60268067?v=4" width=150px height=150px /></a></br> <h4 style="color:red;">Santosh Pal</h4>
-<a href="https://www.linkedin.com/in/santosh-pal/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a></td>
+<a href="https://www.linkedin.com/in/palsantosh/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a></td>
 </tr>
 </table>
 <br>
