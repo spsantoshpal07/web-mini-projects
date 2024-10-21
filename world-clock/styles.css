@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #87CEFA, #FF6347);
+    font-family: Arial, sans-serif;
+}
+
+.clock-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.clock, .digital-clock {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    position: relative;
+    border: 10px solid #333;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.hand {
+    position: absolute;
+    background: #333;
+    transform-origin: bottom;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hour-hand {
+    width: 6px;
+    height: 60px;
+    border-radius: 6px;
+}
+
+.minute-hand {
+    width: 4px;
+    height: 80px;
+    border-radius: 4px;
+}
+
+.second-hand {
+    width: 2px;
+    height: 100px;
+    background: red;
+    border-radius: 2px;
+}
+
+.digital-clock {
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid #333;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+}
+
+.time {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.date {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.timezone-selector {
+    margin-top: 20px;
+}
+
+#timezoneSelector {
+    padding: 12px;
+    font-size: 16px;
+}
